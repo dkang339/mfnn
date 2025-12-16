@@ -56,4 +56,11 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+data/ocean/*
+data/atmosphere/*
+
+# allow empty folder
+!data/ocean/.gitkeep
+!data/atmosphere/.gitkeep
+
 # End of https://www.toptal.com/developers/gitignore/api/macosMiniconda3-latest-MacOSX-x86_64.sh
